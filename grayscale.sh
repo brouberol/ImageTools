@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# --- This script applies a black&white conversion function to all pictures in the same directory ---
+
 # How many files to make the progress bar
 PROGRESS=0
 if [ $# = 1 ]; then

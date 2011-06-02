@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# --- This script applies a scale-resize function to all pictures in the same directory ---
+
 # Dialog box to choose thumb's size
 SIZE=`zenity --scale --text="Choose scale of resized images" --min-value=1 --max-value=100 --step=1 --value=50`
 

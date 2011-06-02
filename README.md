@@ -3,6 +3,6 @@
 
 <h3>Instructions</h3>
 <p>After downloading the scripts, type in
-<pre>$ sudo chmod +x grayscale.sh resize.sh</pre>. Then type in <pre>$ ./grayscale X</pre> or <pre>$ ./resize X</pre> with X : pictures directory. Defalut X value : current directory "./"</p>  
+<pre>$ sudo chmod +x grayscale.sh resize.sh</pre>Then type in <pre>$ ./grayscale X</pre> or <pre>$ ./resize X</pre> with X : pictures directory. Default X value : current directory "./"</p>  
 
 
