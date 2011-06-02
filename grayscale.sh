@@ -31,5 +31,5 @@ if [ $NB_FILES -ne 0 ]; then
 	) | zenity --progress --percentage=0 --auto-close --title="Creating thumbnails..."
 
 else
-	echo "No picture files in $DIR directory."
+	echo "No image files in $DIR directory."
 fi
