@@ -5,4 +5,6 @@
 <p>After downloading the scripts, type in
 <pre>$ sudo chmod +x grayscale.sh resize.sh</pre>Then type in <pre>$ ./grayscale X</pre> or <pre>$ ./resize X</pre> with X : pictures directory. Default X value : current directory "./"</p>  
 
+<p>If you want these scripts to be installed as proper exec files, use the install.sh script. Use the uninstall.sh script to .. uninstall the ImageTools scripts from your system.</p>
+
 
