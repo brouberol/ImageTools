@@ -13,11 +13,13 @@ if [[ $EUID -ne 0 ]]; then
 else
 	
 	mkdir -p "$INSTALLDIR"
-	cp resize.sh grayscale.sh "$INSTALLDIR/"
+	cp resize.sh grayscale.sh watermark.sh "$INSTALLDIR/"
 	ln -s "$INSTALLDIR/resize.sh" "$BINDIR/it-resize"
 	ln -s "$INSTALLDIR/grayscale.sh" "$BINDIR/it-grayscale"
+	ln -s "$INSTALLDIR/watermark.sh" "$BINDIR/it-watermark"
 	chmod +x "$BINDIR/it-grayscale" 
 	chmod +x "$BINDIR/it-resize"
+	chmod +x "$BINDIR/it-watermark"
 
 	echo -e "ImageTools bin files located in $BINDIR/ directory"
 fi
