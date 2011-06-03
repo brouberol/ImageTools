@@ -13,6 +13,7 @@ fi
 WATER_PATH=`zenity --file-selection --title="Select your watermark file"`
 SUBDIR="Watermarked/"
 PROGRESS=0
+
 FILES=`ls $DIR | egrep '(\.JPG$)|(\.jpg$)|(\.png$)|(\.raw$)|(\.tiff$)'`
 NB_FILES=`ls $DIR | egrep '(\.JPG$)|(\.jpg$)|(\.png$)|(\.raw$)|(\.tiff$)' | wc -l`
 

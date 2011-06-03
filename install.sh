@@ -13,6 +13,7 @@ if [[ $EUID -ne 0 ]]; then
 else
 	
 	mkdir -p "$INSTALLDIR"
+
 	cp resize.sh grayscale.sh watermark.sh convert.sh "$INSTALLDIR/"
 	ln -s "$INSTALLDIR/resize.sh" "$BINDIR/it-resize"
 	ln -s "$INSTALLDIR/grayscale.sh" "$BINDIR/it-grayscale"
