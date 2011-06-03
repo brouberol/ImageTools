@@ -15,6 +15,8 @@ else
 	rm -r $INSTALLDIR
 	rm $BINDIR/it-resize
 	rm $BINDIR/it-grayscale
+	rm $BINDIR/it-watermark
+	rm $BINDIR/it-convert
 
 	echo "ImageTools have been successfully uninstalled."
 	
