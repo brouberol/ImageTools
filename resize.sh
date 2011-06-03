@@ -11,8 +11,8 @@ fi
 
 #Init variables
 PROGRESS=0
-FILES=`ls $DIR | egrep '(.JPG)|(.jpg)|(.png)|(.raw)|(.tiff)'`
-NB_FILES=`ls $DIR | egrep '(.JPG)|(.jpg)|(.png)|(.raw)|(.tiff)' | wc -l`
+FILES=`ls $DIR | egrep '(\.JPG$)|(\.jpg$)|(\.png$)|(\.raw$)|(\.tiff$)'`
+NB_FILES=`ls $DIR | egrep '(\.JPG$)|(\.jpg$)|(\.png$)|(\.raw$)|(\.tiff$)' | wc -l`
 
 # If picture files in directory
 if [ $NB_FILES -ne 0 ]; then
